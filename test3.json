@@ -71,7 +71,7 @@
       "protocol": "freedom",
       "tag": "fragment-out",
       "type": "selector",
-      "domainStrategy": "UseIP",
+      "domainStrategy": "AsIs",
       "sniffing": {
         "enabled": true,
         "destOverride": [
@@ -91,7 +91,7 @@
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
-          "domainStrategy": "UseIP"
+          "domainStrategy": "AsIs"
         }
       }
     },
