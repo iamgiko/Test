@@ -71,7 +71,6 @@
       "protocol": "freedom",
       "tag": "fragment-out",
       "type": "selector",
-      "domainStrategy": "AsIs",
       "sniffing": {
         "enabled": true,
         "destOverride": [
@@ -90,8 +89,7 @@
         "sockopt": {
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "domainStrategy": "AsIs"
+          "mark": 255
         }
       }
     },
@@ -102,7 +100,6 @@
     {
       "protocol": "vless",
       "tag": "fakeproxy-out",
-      "domainStrategy": "",
       "settings": {
         "vnext": [
           {
